@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile-store</title>
+   <!-- swiper link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+
+    <!-- ---css-file-link---- -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Header section starts -->
+    <header class="header container">
+        <a href="#" class="logo"><i class="fa fa-mobile-phone" style="font-size:48px;color:red"></i>MOBILE</a>
+        <nav class="navbar">
+            <ul class="navbar-menu">
+                <li class="navbar-menu__item"><a href="#home">home</a></li>
+                <li class="navbar-menu__item"><a href="#features">features</a></li>
+                <li class="navbar-menu__item"><a href="#products">products</a></li>
+                <li class="navbar-menu__item"><a href="#categories">categories</a>
+                <li class="navbar-menu__item"><a href="#review">review</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <div class="icons-item" id="menu-btn"><i class="fa fa-bars"></i></div>
+            <div class="icons-item" id="search-btn"><i class="fa fa-search"></i></div>
+            <div class="icons-item" id="cart-btn"><i class="fa fa-shopping-cart"></i></div>
+            <div class="icons-item" id="login-btn"><i class='fa fa-user-circle'></i></div>
+
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box"><i class="fa fa-search"></i></label>
+
+        </form>
+        <div class="shopping-cart">
+            <div class="box">            
+                <i class="fa fa-trash-o"></i>
+                <div class="content">
+                    <h3 class="name">Redmi note </h3>
+                    <span class="price"> Rs.20000</span>
+                    <span class="quantity">qty:1</span>
+                </div>
+            </div>
+            
+            <div class="box">            
+                <i class="fa fa-trash-o"></i>
+                <div class="content">
+                    <h3 class="name">Redmi note </h3>
+                    <span class="price"> Rs.20000</span>
+                    <span class="quantity">qty:1</span>
+                </div>
+            </div>
+            <hr>
+            <div class="total">total:Rs 40000</div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+
+        <form action="" class="login-form">
+            <h3 class="heading">login now</h3>
+            <input type="email" placeholder="your email" class="box">
+            <input type="password" placeholder="your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+    </header>
+
+    <!-- Header section ends -->
+
+    <!-- banner-section start -->
+    <main>
+        <section class="home " id="home">
+            <div class="content">
+                <h3 class="title">New and <span>Branded</span>products for you</h3>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic nam voluptatibus officiis debitis id maxime!</p>
+                <a href="#" class="btn">shop Now</a>
+            </div>
+
+        </section>
+        <!-- banner-section ends -->
+        
+        <!-- features section start  -->
+
+        <section class="features container" id="features">
+            <h1 class="heading">our<span>features</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/feature-img-1.jpg" alt="">
+                    <h3 class="title">Smartphones</h3>
+                    <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut fugit distinct</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+                <div class="box">
+                    <img src="images/feature-img-2.png" alt="">
+                    <h3 class="title">free delivery</h3>
+                    <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut fugit distinct</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+                <div class="box">
+                    <img src="images/feature-img-3.png" alt="">
+                    <h3 class="title">Easy payment</h3>
+                    <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut fugit distinct</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+        </section>
+        <!-- features section ends  -->
+        <!-- product section ends  -->
+
+        <section class="products container" id="products">
+            <h1 class="heading">our<span>products</span></h1>
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper wrapper">
+                    <div class="swiper-slide box">
+                        <img src="images/feature-img-1.jpg" alt="">
+                        <h3 class="title">oppo</h3>
+                        <div class="price">Rs.2000/- - Rs.10000/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="images/feature-img-1.jpg" alt="">
+                        <h3 class="title">Redme</h3>
+                        <div class="price">Rs.2000/- - Rs.10000/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="images/feature-img-1.jpg" alt="">
+                        <h3 class="title">oneplus</h3>
+                        <div class="price">Rs.2000/- - Rs.10000/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                    <div class="swiper-slide box">
+                        <img src="images/feature-img-1.jpg" alt="">
+                        <h3 class="title">iphone</h3>
+                        <div class="price">Rs.2000/- - Rs.10000/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">add to cart</a>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+
+        </section>
+        <!-- product section ends  -->
+
+        <!-- categories section start  -->
+
+        <section class="categories container" id="categories">
+            <h1 class="heading">product<span>categories</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="images/feature-img-1.jpg" alt="">
+                    <h3 class="title">Smartphones</h3>
+                    <p class="para">upto 45% off</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+                <div class="box">
+                    <img src="images/apple-ios-img.jpg" alt="">
+                    <h3 class="title">Apple ios</h3>
+                    <p class="para">upto 45% off</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+                <div class="box">
+                    <img src="images/Tablet PCs-img.jpg" alt="">
+                    <h3 class="title">Tablet PCs</h3>
+                    <p class="para">upto 45% off</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+                <div class="box">
+                    <img src="images/palm-os-img.jpg" alt="">
+                    <h3 class="title">palm os</h3>
+                    <p class="para">upto 45% off</p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+            </div>
+        </section>
+        <!-- categories section ends  -->
+
+        <!-- review section starts  -->
+
+<section class="review container" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="images/blog-img.png" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>Sakira</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/blog-img.png" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>simran</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/blog-img.png" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>shofiya</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/blog-img.png" alt="">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+                <h3>Sejal sinnha</h3>
+                <div class="stars">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+    </main>
+
+    <!-- footer section starts  -->
+
+<section class="footer container">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3 class="logo title"><i class="fa fa-mobile-phone" style="font-size:48px;color:red"></i> MOBILE  </h3>
+            <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
+            <div class="share">
+                <a href="#" class="fa fa-facebook-f"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3 class="title">contact info</h3>
+            <a href="#" class="links"> <i class="fa fa-phone"></i> +123-456-7890 </a>
+            <a href="#" class="links"> <i class="fa fa-phone"></i> +111-222-3333 </a>
+            <a href="#" class="links"> <i class="fa fa-envelope"></i> shaikhanas@gmail.com </a>
+            <a href="#" class="links"> <i class="fa fa-map-marker-alt"></i> mumbai, india - 400104 </a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">quick links</h3>
+            <a href="#" class="links"> <i class="fa fa-arrow-right"></i> home </a>
+            <a href="#" class="links"> <i class="fa fa-arrow-right"></i> features </a>
+            <a href="#" class="links"> <i class="fa fa-arrow-right"></i> products </a>
+            <a href="#" class="links"> <i class="fa fa-arrow-right"></i> categories </a>
+            <a href="#" class="links"> <i class="fa fa-arrow-right"></i> review </a>
+        </div>
+
+        <div class="box">
+            <h3 class="title">newsletter</h3>
+            <p class="para">subscribe for latest updates</p>
+            <input type="email" placeholder="your email" class="email">
+            <input type="submit" value="subscribe" class="btn">
+        </div>
+
+    </div>
+
+    <div class="copyright">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, voluptatibus?</div>
+
+</section>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+<script src="js/script.js"></script>
+</body>
+
+</html>
